@@ -1,5 +1,5 @@
 # ValorantWeaponEnhancerApp
 ### Application with UI (JavaFX)
-*code:* src 
+*code:* **src** 
 
 *Windows executable:* soon

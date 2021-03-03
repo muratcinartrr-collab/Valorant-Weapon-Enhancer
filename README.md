@@ -1,7 +1,7 @@
 # ValorantWeaponEnhancer
 ### Application with UI (JavaFX)
 
-Open source enhancer for Valorant's weapons.
+Code of enhancer for Valorant's weapons.
 
 
 *Intro:*  
@@ -19,7 +19,3 @@ The firing speed can be regulated by a slider.
     
 ⚠️ *Valorant uses "Vanguard service" as cheat protection. ValorantWeaponEnhancer is just a running process in your system that can not be detected by Vanguard. Even if it could, it DOES NOT change any game files but is working completely externally to the game.
 However, any guarantees are not provided and using this software is at your own risk.*
-
-
-*code:* **src** 
-*Windows executable:* soon

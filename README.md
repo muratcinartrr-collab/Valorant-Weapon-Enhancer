@@ -17,5 +17,5 @@ For example, by holding left mouse button, "Guardian", "Ghost", "Sheriff" and ot
 The firing speed can be regulated by a slider.   
   
     
-⚠️ *Valorant uses "Vanguard service" as cheat protection. ValorantWeaponEnhancer is just a running process in your system that can not be detected by Vanguard. Even if it could, it DOES NOT change any game files but is working completely externally to the game.
+⚠️ *Valorant is using "Vanguard service" as cheat protection. ValorantWeaponEnhancer is just a running process in your system that can not be detected by Vanguard. Even if it could, it DOES NOT change any game files but is working completely externally to the game.
 However, any guarantees are not provided and using this software is at your own risk.*

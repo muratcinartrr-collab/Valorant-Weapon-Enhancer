@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="356.0" maxWidth="440" minHeight="320" minWidth="440" prefHeight="356.0" prefWidth="440" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ValorantWeaponEnhancer.ValorantWeaponEnhancerController">
+    <Button fx:id="startBtn" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="143.0" layoutY="64.0" mnemonicParsing="false" onAction="#start" prefHeight="70.0" prefWidth="155.0" style="-fx-background-color: #2F2D2D;" text="START" textAlignment="CENTER" textFill="#df0000" AnchorPane.bottomAnchor="186.0" AnchorPane.leftAnchor="143.0" AnchorPane.rightAnchor="142.0" AnchorPane.topAnchor="64.0">
+        <font>
+          <Font name="System Bold" size="33.0" />
+        </font>
+    </Button>
+    <TextField fx:id="statusTextFld" alignment="CENTER" disable="true" editable="false" layoutX="106.0" layoutY="200.0" prefHeight="26.0" prefWidth="226.0" promptText="DEACTIVATED" style="-fx-background-color: #E65130; -fx-opacity: 0.8;">
+        <font>
+          <Font size="23.0" />
+        </font>
+    </TextField>
+    <Text fill="#ff8080" layoutX="198.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STATUS" />
+   <TextField fx:id="cooldownTextFld" alignment="CENTER" editable="false" layoutX="193.0" layoutY="288.0" opacity="0.69" prefHeight="26.0" prefWidth="54.0" text="10" />
+   <Text fill="#bf5050" layoutX="186.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COOLDOWN" />
+   <Button fx:id="rightBtn" layoutX="272.0" layoutY="289.0" mnemonicParsing="false" onAction="#cooldownIncrement" style="-fx-background-color: #2F2D2D;" text="&gt;" textFill="#ff7878" />
+   <Button fx:id="leftBtn" layoutX="143.0" layoutY="288.0" mnemonicParsing="false" onAction="#cooldownDecrement" style="-fx-background-color: #2F2D2D;" text="&lt;" textFill="#ff7878" />
+</AnchorPane>
